@@ -10,7 +10,7 @@ import BuilderPageWrapper from '../components/BuilderPageWrapper';
 export const config = { amp: true };
 
 // Set this in your environment or in an `.env` file
-builder.init(process.env.BUILDER_PUBLIC_KEY);
+builder.init('2f961c38e28f466d8b922669e6c316df');
 
 export default function Page({ builderPage }) {
   const { title, description, image } = builderPage?.data || {};

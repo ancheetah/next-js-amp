@@ -20,7 +20,7 @@ module.exports = bundleAnalyzer({
   },
   env: {
     // expose env to the browser
-    BUILDER_PUBLIC_KEY: process.env.BUILDER_PUBLIC_KEY,
+    BUILDER_PUBLIC_KEY: '2f961c38e28f466d8b922669e6c316df',
   },
   i18n: {
     // These are all the locales you want to support in
